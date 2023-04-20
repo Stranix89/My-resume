@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -238,4 +239,32 @@ h6 {
 .main .contacts-body-text {
   margin-left: 5px;
   margin-top: 10px;
+}
+
+.about {
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #C7B9FF;
+  padding: 40px;
+  margin: 30px 0;
+}
+.about ul {
+  list-style-type: none;
+}
+.about ul li {
+  position: relative;
+}
+.about ul li::before {
+  color: rgb(34, 128, 250);
+  content: "•";
+  font-size: 26px;
+  font-weight: 700;
+  left: -15px;
+  position: absolute;
+  top: 0;
+}
+.about .about-text {
+  border: 1px solid rgb(34, 128, 250);
+  padding-left: 30px;
+  padding-bottom: 35px;
 }
