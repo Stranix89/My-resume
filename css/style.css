@@ -268,3 +268,60 @@ h6 {
   padding-left: 30px;
   padding-bottom: 35px;
 }
+
+.experience {
+  background-color: #C7B9FF;
+  padding: 40px;
+  margin: 50px 0;
+}
+
+.experience-text {
+  font-size: 18px;
+  margin-top: 24px;
+  margin-left: 16px;
+}
+
+.skills {
+  background-color: #C7B9FF;
+  margin: 50px 0;
+}
+.skills ul {
+  list-style-type: none;
+}
+.skills ul li {
+  position: relative;
+}
+.skills ul li::before {
+  color: #01c278;
+  content: "•";
+  font-size: 26px;
+  font-weight: 700;
+  left: -15px;
+  position: absolute;
+  top: 0;
+}
+
+.skills-text {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.skills-list {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 25px;
+  margin-top: 15px;
+  border: 1px solid rgb(34, 128, 250);
+}
+
+.skills-list li {
+  color: rgb(141, 1, 160);
+}
+
+.secondary-skills {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 25px;
+  margin-top: 30px;
+  border: 1px solid #01c278;
+}
