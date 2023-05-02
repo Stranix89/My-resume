@@ -23,7 +23,7 @@
 	}
 	
 	nav {
-		position: fixed;
+		position: sticky;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -113,15 +113,21 @@
 		padding: 40px;
 		/*margin: 50px  0;*/
 		margin-top: 20px;
+		@media (max-width: 1020px) {
+			.inform {
+				display: grid;
+				grid-template-columns:none;
+				}
+				}
 		}
 	.inform-content {
 		padding-top: 30px;
 		}
 	.photo {
 		padding-top: 30px;
-		position: sticky;
-		top: 62px;
-		min-height: 2em;
+		position: relative;
+		top: 5px;
+		/*min-height: 2em;*/
 		}
 		.name-text {
 		font-size: 20px;
@@ -158,47 +164,12 @@
 			margin-left: 5px;
 			margin-top: 10px;
 		}
-	}
-	.about {
-		font-size: 20px;
-		line-height: 30px;
-		background-color: #C7B9FF;
-		padding: 40px;
-		margin: 30px  0;
-		ul {
-			list-style-type: none;
-		}
-		ul li {
-			position: relative;
-		}
-		ul li::before {
-			color: rgb(34, 128, 250);;
-			content:"\2022";
-			font-size: 26px;
-			font-weight: 700;
-			left: -15px;
-			position: absolute;
-			top: 0;
-		}
-		.about-text {
-			border: 1px solid rgb(34, 128, 250);
-			padding-left: 30px;
-			padding-bottom: 35px;
-			}
-		}
-		.experience {
+		.about {
+			font-size: 20px;
+			line-height: 30px;
 			background-color: #C7B9FF;
 			padding: 40px;
-			margin: 50px  0;
-			}
-		.experience-text {
-			font-size: 18px;
-			margin-top: 24px;
-			margin-left: 16px;
-			}
-		.skills {
-			background-color: #C7B9FF;
-			margin: 50px  0;
+			margin: 30px  0;
 			ul {
 				list-style-type: none;
 			}
@@ -206,7 +177,7 @@
 				position: relative;
 			}
 			ul li::before {
-				color: #01c278;
+				color: rgb(34, 128, 250);;
 				content:"\2022";
 				font-size: 26px;
 				font-weight: 700;
@@ -214,32 +185,69 @@
 				position: absolute;
 				top: 0;
 			}
+			.about-text {
+				border: 1px solid rgb(34, 128, 250);
+				padding-left: 30px;
+				padding-bottom: 35px;
+				}
 			}
-		.skills-text {
-			font-size: 20px;
-			padding: 15px;
-			}
-		.skills-list {
-			font-size: 18px;
-			line-height: 30px;
-			padding: 25px;
-			margin-top: 15px;
-			border: 1px solid rgb(34, 128, 250);
-			}
-		.skills-list li {
-			color: rgb(141, 1, 160);
-			}
-		.secondary-skills {
-			font-size: 18px;
-			line-height: 30px;
-			padding: 25px;
-			margin-top: 30px;
-			border: 1px solid #01c278;
-			}
-		.portfolio {
-			padding: 40px;
-			margin: 50px  0;
-			}
+			.experience {
+				background-color: #C7B9FF;
+				padding: 40px;
+				margin: 50px  0;
+				}
+			.experience-text {
+				font-size: 18px;
+				margin-top: 24px;
+				margin-left: 16px;
+				}
+			.skills {
+				background-color: #C7B9FF;
+				margin: 50px  0;
+				ul {
+					list-style-type: none;
+				}
+				ul li {
+					position: relative;
+				}
+				ul li::before {
+					color: #01c278;
+					content:"\2022";
+					font-size: 26px;
+					font-weight: 700;
+					left: -15px;
+					position: absolute;
+					top: 0;
+				}
+				}
+			.skills-text {
+				font-size: 20px;
+				padding: 15px;
+				}
+			.skills-list {
+				font-size: 18px;
+				line-height: 30px;
+				padding: 25px;
+				margin-top: 15px;
+				border: 1px solid rgb(34, 128, 250);
+				}
+			.skills-list li {
+				color: rgb(141, 1, 160);
+				}
+			.secondary-skills {
+				font-size: 18px;
+				line-height: 30px;
+				padding: 25px;
+				margin-top: 30px;
+				border: 1px solid #01c278;
+				}
+			.portfolio {
+				padding: 40px;
+				margin: 50px  0;
+				}
+	}
+
+	
 
 
 
