@@ -190,14 +190,14 @@ h6 {
   }
 }
 @media (max-width: 650px) {
-  .main nav .navbar {
+  .main .main nav .navbar {
     max-width: 100%;
     padding: 0 15px;
   }
-  .main nav .navbar .nav-links .links li {
+  .main .main nav .navbar .nav-links .links li {
     padding: 0 5px;
   }
-  .main nav .navbar .nav-links .links li a {
+  .main .main nav .navbar .nav-links .links li a {
     font-size: 10px;
   }
 }
@@ -209,7 +209,7 @@ h6 {
   /*margin: 50px  0;*/
   margin-top: 20px;
 }
-@media (max-width: 1020px) {
+@media (max-width: 1150px) {
   .main .inform {
     display: grid;
     grid-template-columns: none;
@@ -339,4 +339,23 @@ h6 {
   background-color: #C7B9FF;
   /*padding: 40px;*/
   margin: 30px 0;
+}
+.main .portfolio .portfolio-mobile {
+  display: none;
+}
+@media (max-width: 780px) {
+  .main .portfolio #carouselExampleDark {
+    display: none;
+  }
+  .main .portfolio .portfolio-mobile {
+    display: block;
+  }
+  .main .portfolio .portfolio-mobile-item {
+    padding: 10px;
+    display: flex;
+  }
+  .main .portfolio .portfolio-mobile-text {
+    margin-left: 5px;
+    margin-top: 12px;
+  }
 }
