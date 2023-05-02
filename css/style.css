@@ -189,6 +189,18 @@ h6 {
     font-size: 15px;
   }
 }
+@media (max-width: 650px) {
+  .main nav .navbar {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .main nav .navbar .nav-links .links li {
+    padding: 0 5px;
+  }
+  .main nav .navbar .nav-links .links li a {
+    font-size: 10px;
+  }
+}
 .main .inform {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -198,7 +210,7 @@ h6 {
   margin-top: 20px;
 }
 @media (max-width: 1020px) {
-  .main .inform .inform {
+  .main .inform {
     display: grid;
     grid-template-columns: none;
   }
