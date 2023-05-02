@@ -190,14 +190,14 @@ h6 {
   }
 }
 @media (max-width: 650px) {
-  .main .navbar {
+  .main nav .navbar {
     max-width: 100%;
     padding: 0 15px;
   }
-  .main .main nav .navbar .nav-links .links li {
+  .main nav .navbar .nav-links .links li {
     padding: 0 5px;
   }
-  .main .main nav .navbar .nav-links .links li a {
+  .main nav .navbar .nav-links .links li a {
     font-size: 10px;
   }
 }

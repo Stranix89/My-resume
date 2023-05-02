@@ -106,14 +106,14 @@
 		}
 	}
 	@media (max-width: 650px) {
-		.main nav .navbar {
+		nav .navbar {
 		max-width: 100%;
 		padding: 0 15px;
 		}
-		.main nav .navbar .nav-links .links li {
+		nav .navbar .nav-links .links li {
 		padding: 0 5px;
 		}
-		.main nav .navbar .nav-links .links li a {
+		nav .navbar .nav-links .links li a {
 		font-size: 10px;
 		}
 	}
