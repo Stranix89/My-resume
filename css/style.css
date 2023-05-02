@@ -276,7 +276,7 @@ h6 {
 .main .experience {
   background-color: #C7B9FF;
   padding: 40px;
-  margin: 50px 0;
+  margin: 30px 0;
 }
 .main .experience-text {
   font-size: 18px;
@@ -324,6 +324,7 @@ h6 {
   border: 1px solid #01c278;
 }
 .main .portfolio {
-  padding: 40px;
-  margin: 50px 0;
+  background-color: #C7B9FF;
+  /*padding: 40px;*/
+  margin: 30px 0;
 }
